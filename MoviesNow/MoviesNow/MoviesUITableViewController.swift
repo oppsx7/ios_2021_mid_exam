@@ -10,6 +10,7 @@ import UIKit
 class MoviesUITableViewController: UITableViewController {
 
     var model = Model()
+    var movies: [Movie]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,18 +20,22 @@ class MoviesUITableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        movies = model.movies
     }
 
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return model.movies.count
+        return movies?.count ?? 0
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        guard let title = movies?[indexPath.row].title,
+              let image = movies?[indexPath.row].photo else { return UITableViewCell()}
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
+        
+        cell.setup(title, image: image)
          
 
         return cell
