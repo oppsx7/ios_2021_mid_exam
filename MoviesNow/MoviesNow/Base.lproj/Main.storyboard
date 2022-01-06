@@ -50,9 +50,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="some very long text.....d.asdasdsadasdasdsadasdsadasdsadas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng0-6Z-pLg">
-                                <rect key="frame" x="20" y="496" width="374" height="54"/>
+                                <rect key="frame" x="20" y="496" width="374" height="366"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="MXi-0h-UHH"/>
+                                    <constraint firstAttribute="height" constant="366" id="MXi-0h-UHH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -99,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3499" y="217"/>
+            <point key="canvasLocation" x="3498.5507246376815" y="216.96428571428569"/>
         </scene>
         <!--MovieNews-->
         <scene sceneID="2bJ-eU-0EB">
