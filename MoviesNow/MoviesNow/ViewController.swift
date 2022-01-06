@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupIBActions()
+        movieDescription.sizeToFit()
     }
     
     @IBAction func didTapBack(_ sender: Any) {

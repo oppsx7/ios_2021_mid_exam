@@ -18,6 +18,9 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dr-strange" translatesAutoresizingMaskIntoConstraints="NO" id="qcf-VB-TBy">
                                 <rect key="frame" x="104" y="88" width="206" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="ACh-oi-51g"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Released on:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL9-FK-uRT">
                                 <rect key="frame" x="20" y="388" width="105" height="21"/>
@@ -67,7 +70,6 @@
                             <constraint firstItem="qcf-VB-TBy" firstAttribute="centerX" secondItem="9gm-Zb-RsY" secondAttribute="centerX" id="d6E-qs-L8q"/>
                             <constraint firstItem="dvo-vc-PPx" firstAttribute="leading" secondItem="Ng0-6Z-pLg" secondAttribute="leading" id="h2i-du-HHF"/>
                             <constraint firstItem="9gm-Zb-RsY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jAz-9w-Twt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ng0-6Z-pLg" secondAttribute="bottom" constant="312" id="jUp-8z-gsm"/>
                             <constraint firstItem="qcf-VB-TBy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="lRU-SZ-Wvx"/>
                             <constraint firstItem="Ng0-6Z-pLg" firstAttribute="top" secondItem="dvo-vc-PPx" secondAttribute="bottom" constant="8" id="ltw-PB-rgi"/>
                             <constraint firstItem="SL9-FK-uRT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pes-oO-2vu"/>
