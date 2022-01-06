@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     func setupIBActions() {
-        navigationController?.navigationItem.title = movieTitle
+        self.title = movieTitle
         movieImageView.image = movieImage
         movieDescription.text = movieDesc
         releaseDateLabel.text = movieReleaseDate
