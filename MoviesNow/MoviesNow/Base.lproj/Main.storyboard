@@ -52,6 +52,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="movieImageView" destination="WUI-EE-0FX" id="GnT-VU-MWs"/>
+                                    <outlet property="titleLabel" destination="Lyk-Ez-nrE" id="l9k-AR-lrm"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

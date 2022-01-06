@@ -13,9 +13,9 @@
 		D42A4182278754330096E19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A4180278754330096E19A /* Main.storyboard */; };
 		D42A4184278754350096E19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42A4183278754350096E19A /* Assets.xcassets */; };
 		D42A4187278754350096E19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A4185278754350096E19A /* LaunchScreen.storyboard */; };
-		D42A418F278754FF0096E19A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A418E278754FF0096E19A /* Model.swift */; };
 		D42A4191278755C90096E19A /* MoviesUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A4190278755C90096E19A /* MoviesUITableViewController.swift */; };
 		D42A41942787564D0096E19A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A41932787564D0096E19A /* MovieCell.swift */; };
+		D42A4198278759300096E19A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A4197278759300096E19A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		D42A4183278754350096E19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42A4186278754350096E19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42A4188278754350096E19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D42A418E278754FF0096E19A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../../../Downloads/movies/Model.swift; sourceTree = "<group>"; };
 		D42A4190278755C90096E19A /* MoviesUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITableViewController.swift; sourceTree = "<group>"; };
 		D42A41932787564D0096E19A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D42A4197278759300096E19A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				D42A4192278756390096E19A /* Cells */,
-				D42A418E278754FF0096E19A /* Model.swift */,
 				D42A417A278754320096E19A /* AppDelegate.swift */,
 				D42A417C278754320096E19A /* SceneDelegate.swift */,
+				D42A4197278759300096E19A /* Model.swift */,
 				D42A4190278755C90096E19A /* MoviesUITableViewController.swift */,
 				D42A417E278754320096E19A /* ViewController.swift */,
 				D42A4180278754330096E19A /* Main.storyboard */,
@@ -158,9 +158,9 @@
 				D42A417F278754320096E19A /* ViewController.swift in Sources */,
 				D42A4191278755C90096E19A /* MoviesUITableViewController.swift in Sources */,
 				D42A41942787564D0096E19A /* MovieCell.swift in Sources */,
+				D42A4198278759300096E19A /* Model.swift in Sources */,
 				D42A417B278754320096E19A /* AppDelegate.swift in Sources */,
 				D42A417D278754320096E19A /* SceneDelegate.swift in Sources */,
-				D42A418F278754FF0096E19A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
